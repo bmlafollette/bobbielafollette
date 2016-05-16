@@ -1,0 +1,186 @@
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;  /*Gets rid of horozontal scroll bar*/
+}
+
+/*Top navigation bar*/
+.topnav {
+  font-size: 18px;
+  background: #993333;  /*Background color for nav bar*/
+  box-shadow: 0px 1px rgba(0, 0, 0, 0.3);
+}
+
+/*Top left of nav bar*/
+.topnav ul.navbar-nav li a {
+  background: #993333;  /*Background color for top right of nav bar*/
+  color: #FFFFFF;  /*Font color for text at top right of nav bar*/
+}
+
+/*Colors for top right of nav bar*/
+.topnav ul.navbar-nav li a:hover,
+.topnav ul.navbar-nav li a:focus {
+  background: #732626;  /*Dark pink background color of hover at top right of nav bar*/
+  color: #FFFFFF;  /*White background color of hover at top right of nav bar*/
+}
+
+/*Colors for my name at top left of nav bar*/
+.topnav .navbar-brand {
+  background: #993333;
+  color: #FFFFFF;
+}
+
+/*Hover for my name at top left of nav bar*/
+.topnav .navbar-brand:hover,
+.topnav .navbar-brand:focus {
+  background: #732626;  /*Dark pink background color of hover for my name at top left of nav bar*/
+  color: #FFFFFF;  /*White background color of hover for my name at top left of nav bar*/
+}
+
+h1.home-name-text {
+  display: block;
+  margin: auto;
+  padding: 30% 20% 2% 20%;
+  font-size: 2em;
+  color: #993333;
+  text-align: center;
+  text-shadow: 3px 3px 0 rgba(0,0,0,.5);
+}
+
+h2.home-text {
+  display: block;
+  margin: auto;
+  padding: 2% 20% 5% 20%;
+  font-size: 1em;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.bg {
+  background: url(field_tree_notext.jpg) no-repeat;
+  background-size: contain;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+/*  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+}*/
+
+h4.email-text {
+  font-size: 20px;
+  color: #993333;
+  text-decoration: underline;
+}
+
+.container-fluid {
+  padding-right: 35px;
+  padding-left: 35px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+/*My photo*/
+.img-center {
+  /*display: block;*/
+  margin: 0 auto;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.wrapper {
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 20px;
+}
+
+.list-no-padding {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+}
+
+.text-pink {
+  font: #993333;  
+}
+
+.button-resume {
+  height: 15px;
+  width: 50px;
+  background-color: #993333;
+  font-color: #FFFFFF;
+  font-size: 10px;
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  color: #FFFFFF;
+  border: 2px outset rgba(0, 0, 0, 0.9);
+  background: #993333;
+  text-shadow: 1px 1px 1px rgba(0,0,0, 20);
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+  letter-spacing: 2px;
+  transition: 0.2s;
+}
+
+.button:hover {
+  color: #993333;
+  /*border: 2px outset rgba(0, 0, 0, 0.9);*/
+  border: 2px outset #993333;
+  background: #FFFFFF;
+  transform:scale(1.1);
+  transition: 0.2s;
+  text-shadow: 1px 1px 1px rgba(0,0,0, 20);
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+  letter-spacing: 2px;
+}
+
+h4.underline {
+  text-decoration: underline;
+}
+
+a.one:link {                 /*Changes color of hypertext links.*/
+  color: #000000;
+  /*text-decoration: underline;*/
+}
+a.one:visited {
+  color: #FFFFFF;
+}
+a.one:hover {
+  color: #993333;
+}
+
+a.two:link {                 /*Changes color of hypertext links.*/
+  color: #993333;
+  /*text-decoration: underline;*/
+}
+a.two:visited {
+  color: #993333;
+}
+a.two:hover {
+  color: #000000;
+}
